@@ -1,13 +1,40 @@
-input[type=text]{
-    width: 100%;
-    border-radius: 4px;
-    margin: 8px 0;
-    outline: none;
-    padding: 8px;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+input {
+    margin-left: 35px;
+    width: 250px;
 }
-
-
+.div1{
+    border-radius: 12px;
+    width: 400px;
+    height: 80px;
+    border: 1px solid #6b6969;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+.fake-input { 
+    position: relative;
+     width:250px;
+     }
+.fake-input input { 
+    border:none; 
+    background-color:#fff; 
+    display:block; 
+    width: 100%; 
+    box-sizing: border-box;
+    margin-top: -30px; 
+    margin-left: 55px;
+    
+}
+.fake-input img { 
+    margin-top: 145px;
+    padding-top: 45px;
+}
+input:focus{
+    outline: none;
+}
 #priority{
     color: #767676;
     margin-left: .8125rem;
@@ -21,4 +48,19 @@ input[type=text]{
 .header{
         overflow: hidden; /* Hide scrollbars */
         position: fixed;
+}
+
+.heading1{
+    padding-top: 75px;
+    font-family: TiemposHeadline;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 1.11;
+}
+.heading2{
+    margin: 20px 0px 0px 0px;
+    font-size: 1.75rem;
+    color: #767676;
+    line-height: 1.5;
+    font-family: LetteraTextLL;
 }

@@ -17,38 +17,38 @@ const Navbar = ( ) =>{
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
-            <li className="nav-item menu_active">
-                <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+            <li className="nav-item">
+                <a className="nav-link menu_active1 pl-lg-4"  href="#">Home <span className="sr-only">(current)</span></a>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown pl-lg-4 menu_active">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Company
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">About</a>
-                <a className="dropdown-item" href="#">Newsroom</a>
-                <a className="dropdown-item" href="#">Careers</a>
-                <a className="dropdown-item" href="#">Partners</a>
+                <div className="dropdown-menu menu_active3" aria-labelledby="navbarDropdown">
+                <a className="dropdown-item menu_active2" href="#">About</a>
+                <a className="dropdown-item menu_active2" href="#">Newsroom</a>
+                <a className="dropdown-item menu_active2" href="#">Careers</a>
+                <a className="dropdown-item menu_active2" href="#">Partners</a>
                 </div>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown pl-lg-4 menu_active">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Learn
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">Blog</a>
-                <a className="dropdown-item" href="#">Guides</a>
-                <a className="dropdown-item" href="#">Help Center</a>
+                <a className="dropdown-item menu_active2" href="#">Blog</a>
+                <a className="dropdown-item menu_active2" href="#">Guides</a>
+                <a className="dropdown-item menu_active2" href="#">Help Center</a>
                 </div>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown pl-lg-4 menu_active">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Legal
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">Privacy Policy</a>
-                <a className="dropdown-item" href="#">Terms of Use</a>
-                <a className="dropdown-item" href="#">Trademarks</a>
+                <a className="dropdown-item menu_active2" href="#">Privacy Policy</a>
+                <a className="dropdown-item menu_active2" href="#">Terms of Use</a>
+                <a className="dropdown-item menu_active2" href="#">Trademarks</a>
                 </div>
             </li>
             </ul>
