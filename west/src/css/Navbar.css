@@ -1,0 +1,24 @@
+
+.navbar{
+    background-color: #fff !important;
+  }
+  
+.navbar-brand{
+    font-size: 1.9rem !important;
+    columns: #565387;
+  }
+  
+.navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+  }
+.nav_item{
+    color :  #f6f;
+
+}
+.menu_active{
+    color: #f6f;
+}
+  .navbar a:hover{
+    color: black !important;
+  }
