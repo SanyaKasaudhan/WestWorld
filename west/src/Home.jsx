@@ -3,11 +3,11 @@ import mobile from './image/mobile.png'
 import './css/Home.css'
 const Home = ( ) =>{
         return (<>
-        <section id="header">
+        <section id="header pl-sm-5">
             <div className="col-lg-9 col-sm-11 mx-auto">
                 <div className="row">
-                    <div className="col-md-6 col-sm-7 pt-lg-5 pt-sm-2 order-1">
-                        <h1 className="heading1">The Most Powerful Checking Account</h1>
+                    <div className="col-md-6 col-sm-7 pt-lg-5 pt-sm-2 order-1 justify-content-md-center">
+                        <h1 className="heading1 justify-content-md-center">The Most Powerful Checking Account</h1>
                         <h4 className="heading2 mt-4">
                                 Our checking account gives you higher returns than a savings account with no hidden fees.
                         </h4>
@@ -33,7 +33,8 @@ const Home = ( ) =>{
                         </div>
 
                         <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-lg-4
+                        ">
                         <img src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/googleplay%403x.png" height="55px" alt="Google Play" />
                         </div>
                         <div className="col-lg-4">
@@ -45,17 +46,42 @@ const Home = ( ) =>{
                     <img src={mobile} className="img-fluid animated" />
                     </div>
                 </div>
+            <div className="backed mt-5 ml-sm-5  d-flex justify-content-center">
+                <h5>BACKED BY THE BEST</h5>
             </div>
 
 
+            <div class="container">
+            <div class="row mt-5 justify-content-lg-center">
+                <div class="col-md-6 col-sm-12 order-1 order-lg-1 col-lg-3 mt-4 ml-sm-5 pl-sm-5 ">
+                <img className="seq img-fluid animated" src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/sequioa-image%403x.png" alt="sequioa-image"></img>
+                </div>
+                <div class="col-md-6 col-sm-12 order-2 order-lg-2 col-lg-3">
+                <img className="poly img-fluid animated" src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/polychain-capital%403x.png" alt="Polychain Capital" />
+                </div>
+                <div class="col-md-6 col-sm-12 mt-3 order-3 order-lg-3 col-lg-3">
+                <img className="cons img-fluid animated" src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/consensys-logo%403x.png" alt="Consensys"/>
+                </div>
+            </div>
+            </div>
 
 
+            <div className="row">
+                    <div className="col-md-6 col-sm-7 pt-lg-5 pt-sm-2 order-1 justify-content-md-center">
+                        <h1 className="heading1 justify-content-md-center">The Most Powerful Checking Account</h1>
+                        <h4 className="heading2 mt-4">
+                                Our checking account gives you higher returns than a savings account with no hidden fees.
+                        </h4>
+                    </div>
+                    <div className="col-lg-6 order-1 order-lg-2 mt-5 header-img">
+                    <img src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/svg/juno-apy-215.svg" className="img-fluid animated" />
+                    </div>
+            </div>
+            </div>
         </section>
-
-
         </>
            
-
+ 
         );
    
 }

@@ -82,3 +82,24 @@ input:focus{
     font-size: 1.2rem;
     letter-spacing: 0;
 }
+.backed{
+    margin-left: -92px;
+    font-family: LetteraTextLL;
+    font-weight: 1000;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.125rem;
+    line-height: 1.44;
+    letter-spacing: .25rem;
+    color: rgba(55,55,55,var(--text-opacity));
+}
+
+.seq{
+   
+    max-width: 60%;
+}
+.poly{
+    max-width: 60%;
+}
+.cons{
+    max-width: 70%;
+}
