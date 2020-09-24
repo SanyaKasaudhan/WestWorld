@@ -67,16 +67,32 @@ const Home = ( ) =>{
 
 
             <div className="row">
-                    <div className="col-md-6 col-sm-7 pt-lg-5 pt-sm-2 order-1 justify-content-md-center">
-                        <h1 className="heading1 justify-content-md-center">The Most Powerful Checking Account</h1>
-                        <h4 className="heading2 mt-4">
-                                Our checking account gives you higher returns than a savings account with no hidden fees.
-                        </h4>
+                    <div className="col-md-7 col-sm-7 pt-lg-5 pt-sm-2 order-1 justify-content-md-center">
+                        <div className="save">
+                        Start saving for a rainy day fund
+                        </div>
+                        <h1 className="head1 mt-3 justify-content-md-center">Use Our Checking Account to Achieve Your Financial Goals</h1>
+                        <h4 className="head2 mt-4">
+                        With the latest Federal rate cut, the largest banks are offering close to 0% APY on their checking and savings accounts. 
+                        OnJuno checking will earn you more than 20x the national average*. Deposits up to $250,000 are FDIC insured through our partner bank. 
+                        Grow your idle money faster with our checking account and start saving towards a rainy day fund, big expense, or vacation.</h4>
                     </div>
-                    <div className="col-lg-6 order-1 order-lg-2 mt-5 header-img">
+                    <div className="col-lg-5 order-1 order-lg-2 mt-5 header-img">
                     <img src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/svg/juno-apy-215.svg" className="img-fluid animated" />
                     </div>
             </div>
+
+
+            <div className="mt-5 ml-sm-5  d-flex justify-content-center">
+                <h1 className="early">Sign up early to save more</h1>
+            </div>
+            <div className="col-lg-8 col-sm-11 mx-auto">
+            <div className="ml-sm-5  d-flex justify-content-center">
+                <h1 className="early1">Depending on the level of your checking account, you’ll earn between 1.15%3 to 2.15%1 bonus rate.</h1>
+            </div>
+            </div>
+
+
             </div>
         </section>
         </>

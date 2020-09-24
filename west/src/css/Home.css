@@ -83,7 +83,7 @@ input:focus{
     letter-spacing: 0;
 }
 .backed{
-    margin-left: -92px;
+    margin-left: -142px;
     font-family: LetteraTextLL;
     font-weight: 1000;
     -webkit-font-smoothing: antialiased;
@@ -102,4 +102,44 @@ input:focus{
 }
 .cons{
     max-width: 70%;
+}
+.save{
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 700;
+    color: rgb(70, 67, 238);
+    font-size: 1.25rem;
+    line-height: 1.33;
+}
+.head1{
+    font-size: 2.65rem;
+    line-height: 1.17;
+    font-family: TiemposHeadline;
+    font-weight: bolder;
+}
+.head2{
+    font-family: "Gill Sans", sans-serif;
+    color: #9498a1;
+    font-weight: 400;
+    font-size: 1.25rem;
+    --text-opacity: 1;
+    line-height: 1.77;
+    text-align: left;
+}
+
+
+.early{
+    font-size: 2.65rem;
+    line-height: 1.17;
+    font-family: TiemposHeadline;
+    font-weight: bolder;
+}
+
+.early1{
+    font-family: MarkPro;
+    line-height: 1.5;
+    color: #9498a1;
+    font-size: 28px;
+    margin: 16px 0px 0px;
+    line-height: 1.77;
+    text-align: center;
 }
