@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Navbar.css'
+import 'font-awesome/css/font-awesome.min.css';
 import Logo from './image/on-juno.png'
 const Navbar = ( ) =>{
     return(
@@ -22,7 +23,7 @@ const Navbar = ( ) =>{
             </li>
             <li className="nav-item dropdown pl-lg-4 menu_active">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Company
+                Company 
                 </a>
                 <div className="dropdown-menu menu_active3" aria-labelledby="navbarDropdown">
                 <a className="dropdown-item menu_active2" href="#">About</a>
@@ -33,9 +34,9 @@ const Navbar = ( ) =>{
             </li>
             <li className="nav-item dropdown pl-lg-4 menu_active">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Learn
+                Learn 
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div className="dropdown-menu menu_active3" aria-labelledby="navbarDropdown">
                 <a className="dropdown-item menu_active2" href="#">Blog</a>
                 <a className="dropdown-item menu_active2" href="#">Guides</a>
                 <a className="dropdown-item menu_active2" href="#">Help Center</a>
@@ -45,7 +46,7 @@ const Navbar = ( ) =>{
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Legal
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div className="dropdown-menu menu_active3" aria-labelledby="navbarDropdown">
                 <a className="dropdown-item menu_active2" href="#">Privacy Policy</a>
                 <a className="dropdown-item menu_active2" href="#">Terms of Use</a>
                 <a className="dropdown-item menu_active2" href="#">Trademarks</a>

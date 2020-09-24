@@ -5,7 +5,7 @@ input {
 }
 .div1{
     border-radius: 12px;
-    width: 400px;
+    width: 420px;
     height: 80px;
     border: 1px solid #6b6969;
 }
@@ -13,36 +13,31 @@ input,
 input::-webkit-input-placeholder {
     font-size: 20px;
     line-height: 3;
+    color: #9498a1;
 }
 .fake-input { 
     position: relative;
-     width:250px;
+     width:210px;
      }
 .fake-input input { 
     border:none; 
+    color: #e2e8f0;
     background-color:#fff; 
     display:block; 
     width: 100%; 
     box-sizing: border-box;
-    margin-top: -30px; 
-    margin-left: 55px;
+    margin-top: -40px; 
+    margin-left: 75px;
     
 }
-.fake-input img { 
-    margin-top: 145px;
-    padding-top: 45px;
+.msg{
+    padding-top: 25px;
+    padding-left: 15px;
+    height: 45px;
+    width: 45px;
 }
 input:focus{
     outline: none;
-}
-#priority{
-    color: #767676;
-    margin-left: .8125rem;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin: 0px 0px 0px 13px;
-    font-family: LetteraTextLL;
 }
 
 .header{
@@ -54,7 +49,7 @@ input:focus{
     padding-top: 75px;
     font-family: TiemposHeadline;
     font-weight: bold;
-    font-size: 68px;
+    font-size: 66px;
     line-height: 1.11;
 }
 .heading2{
@@ -63,4 +58,27 @@ input:focus{
     color: #767676;
     line-height: 1.5;
     font-family: LetteraTextLL;
+}
+.join{
+    margin-left: 285px;
+    margin-top: -58px;
+    border-radius: 12px;
+    width: 120px;
+    height: 60px;
+    background-color: #4643EE;
+}
+.button1{
+    color: white;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.para{
+    margin-top: -24px;
+    margin-left: 140px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #767676;
+    font-family: LetteraTextLL;
+    font-size: 1.2rem;
+    letter-spacing: 0;
 }
