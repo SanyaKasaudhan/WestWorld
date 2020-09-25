@@ -81,18 +81,19 @@ input:focus{
     font-family: LetteraTextLL;
     font-size: 1.2rem;
     letter-spacing: 0;
-}
+} 
+/*backed */
 .backed{
-    margin-left: -142px;
     font-family: LetteraTextLL;
     font-weight: 1000;
     -webkit-font-smoothing: antialiased;
+    margin-left: -142px;
     font-size: 1.125rem;
     line-height: 1.44;
     letter-spacing: .25rem;
     color: rgba(55,55,55,var(--text-opacity));
 }
-
+ /*logo */
 .seq{
    
     max-width: 60%;
@@ -126,7 +127,7 @@ input:focus{
     text-align: left;
 }
 
-
+/*signup*/
 .early{
     font-size: 2.65rem;
     line-height: 1.17;
@@ -144,77 +145,368 @@ input:focus{
     text-align: center;
 }
 
+/*card image */
 .credit{
     width: 245px;
-    margin-left: 65px;
+    margin-top: -95px;
+    margin-left: 5px;
     margin-bottom: -85px;
 }
 
+/*card */
 .card{
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 400px;
-  height: 545px;
-  margin: auto;
+  height: 945px;
+  margin-top: 75px;
   text-align: center;
   font-family: arial;
   z-index: -1;
+
 }
 
-.met {
-    font-family: LetteraTextLL;
-    font-weight: 500;
-    font-size: 1.125rem;
-    line-height: 1.44;
-    letter-spacing: .25rem;
-    --text-opacity: 1;
-    color: #373737;
-    text-transform: uppercase;
+.card1{
+    max-width: 400px;    
+    margin-top: 0px;
+  height: 305px;
+  background-color: #eefde2;
+  text-align: center;
+  z-index: -1;
+}
+
+
+.w-full {
+    width: 100%;
+}
+.rounded-t-10 {
+    border-top-left-radius: .625rem;
+    border-top-right-radius: .625rem;
+}
+
+.bottom-24 {
+    bottom: 2rem;
 }
 
 .metal{
-    padding-top: 105px;
-    color: #373737;
+    
     font-family: LetteraTextLL;
-    font-size: 0.95rem;
-    line-height: 1.44;
-    letter-spacing: .55rem;    
+    font-weight: 700;
+    padding-top: 105px;
+    color: #373737;  
     text-transform: uppercase;
-
+    
+    font-size: 1.125rem;
+    line-height: 1.44;
+    letter-spacing: .45rem;
+    color: rgba(55,55,55,var(--text-opacity));
 }
 .text-juno-blue{
+    --text-opacity: 1;
+    
+    letter-spacing: 0;
+    font-family: LetteraTextLL;
+    color: #4643ee;
+    color: rgba(70,67,238,var(--text-opacity));    
+    line-height: 1.25;
+}
+/*discount */
+.sup{
+    
+    font-size: 3.375rem;
+    font-weight: 900;
+    font-family: LetteraTextLL;
+    letter-spacing: 0;
+    --text-opacity: 1;
+    color: #030200;
+    color: rgba(3,2,0,var(--text-opacity));
+    line-height: 1.25;
+}
+.text-juno-blue {
     --text-opacity: 1;
     color: #4643ee;
     color: rgba(70,67,238,var(--text-opacity));
 }
-.leading-tight {
-    line-height: 1.25;
-}
-.text-54 {
-    font-size: 3.375rem;
-}
-.font-black {
-    font-weight: 900;
-}
-.font-mono {
-    font-family: LetteraTextLL;
-}
-.align-text-top {
+
+.sup1{
     vertical-align: text-top;
-}
-.text-slate-gray {
     --text-opacity: 1;
     color: #b2b2b2;
     color: rgba(178,178,178,var(--text-opacity));
-}
-.-ml-3 {
     margin-left: -.75rem;
-}
-.text-24 {
     font-size: 1.5rem;
-}
-.font-bold {
     font-weight: 700;
-}
-.font-mono {
     font-family: LetteraTextLL;
+}
+/*cash back */
+.cash{
+    font-size: 1.25rem;
+    
+    letter-spacing: 0;
+    line-height: 1.25;
+    margin-top: .75rem;
+}
+
+.cash1{
+        padding-left: .5rem;
+        padding-right: .25rem;
+        padding-top: .25rem;
+        padding-bottom: .25rem;
+        font-weight: 900;
+        font-family: LetteraTextLL;
+        --text-opacity: 1;
+        color: #fff;
+        color: rgba(255,255,255,var(--text-opacity));
+        border-radius: .3125rem;
+        --bg-opacity: 1;
+        background-color: #00a86b;
+        background-color: rgba(0,168,107,var(--bg-opacity));
+}
+.cash2{
+    
+    margin-left: .5rem;
+    color: #767676;
+}
+
+.text-juno-gray-900 {
+    --text-opacity: 1;
+    color: #797e8d;
+    color: rgba(121,126,141,var(--text-opacity));
+}
+
+/*progress bar top */
+.prog{
+    margin-top: 25px;
+}
+.num1{
+    margin-left: -105px;color: #00a86b;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: LetteraTextLL;
+}
+.num2{
+    --text-opacity: 1;
+    color: #767676;
+    color: rgba(118,118,118,var(--text-opacity));
+    line-height: 1;
+    font-size: .975rem;
+    font-weight: 900;
+    font-family: LetteraTextLL;
+}
+.num3{
+    color: #767676;
+    line-height: 1;
+    font-size: .975rem;
+    font-weight: 500;
+    font-family: LetteraTextLL;
+}
+.num4{
+    color: #767676;
+    line-height: 1.25;
+    font-size: .75rem;
+    font-weight: 400;
+    font-family: LetteraTextLL;
+    align-self: flex-end;
+    text-align-last: right; 
+}
+ /* progress bar loader */
+ 
+.bg-white-smoke {
+    --bg-opacity: 1;
+    background-color: #eee;
+    margin-left: 28px;
+    width: 80%;
+    height: .625rem;
+    display: flex;
+    border-radius: .3125rem;
+    margin-top: -8px;
+}
+
+.juno-green-loader {
+    background-image: linear-gradient(180deg,#00db8c,#00a86b);
+    height: 100%;
+    border-radius: .3125rem;
+    padding-left: 22px;
+}
+
+/* signup now button */
+.sign {
+    margin-top: 1.25rem;
+    height: 3.75rem;
+    align-self: center;
+    display: flex;   
+    width: 100%;
+    outline: none !important;
+}
+
+.primary-btn, .secondary-btn {
+    --bg-opacity: 1;
+    --text-opacity: 1;
+}
+.primary-btn {
+    background-color: #4643ee; 
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 1.75rem;      
+    font-weight: 700;
+    line-height: 1.44;
+    letter-spacing: 0; 
+    font-family: LetteraTextLL;
+    border-radius: .625rem;
+    color: rgba(255,255,255,var(--text-opacity));
+    text-align: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    height: 3.75rem;
+    cursor: pointer;
+    outline: none !important;    
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+}
+.linebreak{
+    color: #b2b2b2;
+}
+
+/*INCLUDES */
+.includes{
+    --text-opacity: 1;
+    color: #b2b2b2;
+    color: rgba(178,178,178,var(--text-opacity));
+    text-transform: uppercase;
+    opacity: .5;
+    letter-spacing: 4px;
+    font-weight: 600;
+    margin-left: -196px;
+}
+
+/*point1 */
+.point1{
+    width: 100%;
+    
+    margin-top: -0.15rem;
+    align-self: center;
+    display: flex;
+}
+.poin1{
+    width: 8.333333%;
+    margin-right: 1.525rem;
+    height: 1.25rem;
+    align-self: center;
+}
+.po1{    
+    align-self: center;
+    display: inline-block;
+}
+
+.svg1{
+    margin-left: 25px;
+    
+    margin-top: -0.95rem;
+    width: 1.125rem;
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: .8125rem;
+}
+.p1{    
+    width: 91.666667%;
+    text-align: left;
+    align-self: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*account fund*/
+.acc{
+    font-weight: 400;
+    font-size: .95rem;
+    line-height: 1.44;
+    text-align: left;
+    padding-left: 25px;
+    color: #767676;
+}
+.font-bold{
+    font-weight: 600;
+}
+
+/*bottom card*/
+
+.card2{
+    max-width: 400px;    
+    margin-top: 0px;
+  height: 305px;
+  background-color: #c2f6e3;
+  text-align: center;
+  z-index: -1;
+  margin-left: -1px;
+}
+
+
+.w-full {
+    width: 100%;
+}
+.rounded-b-10 {
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+.foot{
+    position: absolute;
+    padding-top: 1.25rem;
+}
+.foot1{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.svgg{
+    width: 100%;
+    height: 100%;
+}
+.svggg{
+    width: 1.5rem;
+    object-fit: contain;
+    height: 1.5rem;    
+    margin-left: .885rem;
+}
+.ml25{
+    margin-left: 1.885rem;
+}
+.member{
+    width: 100%;
+    margin-top: -22px;
+    margin-left: 1.5625rem;
+    letter-spacing: 0;
+    color: #000;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: LetteraTextLL;
+}
+.line-through {
+    text-decoration: line-through;
+}
+
+.free{
+    
+    width: 100%;
+    letter-spacing: 0;
+    color: #068758;
+    text-align: left;
+    margin-top: .5625rem;
+    margin-left: 2.5625rem;
+    line-height: 1;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.saving{
+        width: 100%;            
+        margin-top: -12px;
+        margin-left: 2.5625rem;
+        color: #068758;
+        text-align: left;
+        line-height: 1.5;
+        font-size: 1rem;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
 }
