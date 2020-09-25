@@ -140,6 +140,81 @@ input:focus{
     color: #9498a1;
     font-size: 28px;
     margin: 16px 0px 0px;
-    line-height: 1.77;
+    line-height: 1.47;
     text-align: center;
+}
+
+.credit{
+    width: 245px;
+    margin-left: 65px;
+    margin-bottom: -85px;
+}
+
+.card{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  height: 545px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  z-index: -1;
+}
+
+.met {
+    font-family: LetteraTextLL;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.44;
+    letter-spacing: .25rem;
+    --text-opacity: 1;
+    color: #373737;
+    text-transform: uppercase;
+}
+
+.metal{
+    padding-top: 105px;
+    color: #373737;
+    font-family: LetteraTextLL;
+    font-size: 0.95rem;
+    line-height: 1.44;
+    letter-spacing: .55rem;    
+    text-transform: uppercase;
+
+}
+.text-juno-blue{
+    --text-opacity: 1;
+    color: #4643ee;
+    color: rgba(70,67,238,var(--text-opacity));
+}
+.leading-tight {
+    line-height: 1.25;
+}
+.text-54 {
+    font-size: 3.375rem;
+}
+.font-black {
+    font-weight: 900;
+}
+.font-mono {
+    font-family: LetteraTextLL;
+}
+.align-text-top {
+    vertical-align: text-top;
+}
+.text-slate-gray {
+    --text-opacity: 1;
+    color: #b2b2b2;
+    color: rgba(178,178,178,var(--text-opacity));
+}
+.-ml-3 {
+    margin-left: -.75rem;
+}
+.text-24 {
+    font-size: 1.5rem;
+}
+.font-bold {
+    font-weight: 700;
+}
+.font-mono {
+    font-family: LetteraTextLL;
 }

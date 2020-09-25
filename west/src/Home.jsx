@@ -92,6 +92,45 @@ const Home = ( ) =>{
             </div>
             </div>
 
+            <div className="row mt-5">
+                <div className="col-lg-4">
+                <img className="credit" src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/juno-black-card%403x.png" alt="card"></img>
+                <div className="card w-full block rounded-10">
+                    <div className="metal">
+                        <h5>METAL</h5>
+                    </div>
+                   
+                   
+                    <p className="met item-gunmetal-gray opacity-80 uppercase">
+                                    METAL
+                                </p>
+                    <p className="text-54 font-mono font-black text-dark-night leading-tight tracking-normal antialiased">
+                        <span className="text-juno-blue">
+                            2.15%
+                    </span> <span className="align-text-top text-24 font-mono font-bold text-slate-gray -ml-3">
+                            1
+                    </span></p>
+                    
+
+
+
+
+
+
+                </div>
+                </div>
+                <div className="col-lg-4">
+                <img className="credit" src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/juno-plus%403x.png" alt="card"></img>
+                <div className="card w-full block rounded-10">
+                </div>
+                </div>
+                <div className="col-lg-4">
+                <img className="credit" src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/juno-basic%403x.png" alt="card"></img>
+                <div className="card w-full block rounded-10">
+                </div>
+                </div>
+            </div>
+
 
             </div>
         </section>
