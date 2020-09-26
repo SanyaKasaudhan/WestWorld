@@ -631,3 +631,68 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         font-weight: 700;
         font-family: Arial, Helvetica, sans-serif;
 }
+/*static msge button */
+.static{
+    bottom:85px;
+    right:85px;
+    margin:0;
+    padding:5px 3px;
+    
+    position:fixed;
+}
+
+
+.intercom {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform-origin: center center;
+    backface-visibility: hidden;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    background: rgb(255, 108, 191);
+}
+
+.intercom1 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    transition: transform 0.16s linear 0s, opacity 0.08s linear 0s;
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+}
+
+.intercom1 svg path {
+    fill: rgb(255, 255, 255);
+}
+.intercom * {
+    cursor: pointer;
+}
+
+.intercom2 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    transition: transform 0.16s linear 0s, opacity 0.08s linear 0s;
+    opacity: 0;
+    transform: rotate(-60deg);
+}
+.intercom2 svg {
+    width: 16px;
+}
