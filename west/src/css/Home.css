@@ -5,7 +5,8 @@ input {
 }
  /*outer boundary of sign now*/
 .div1{
-    border-radius: 12px;
+    border-radius: 12px;   
+    z-index: -1;
     width: 555px;
     height: 80px;
     border: 1px solid #b2b2b2;
@@ -17,7 +18,7 @@ input::-webkit-input-placeholder {
     color: #9498a1;
 }
 .fake-input { 
-    position: relative;
+    position: relative; 
      width:310px;
      }
 .fake-input input { 
@@ -98,6 +99,12 @@ input:focus{
     font-size: 1.2rem;
     letter-spacing: 0;
 } 
+
+/*onjuno mobile*/
+
+.onjun{
+    padding-top: 45px;
+}
 /*backed */
 .backed{
     font-family: LetteraTextLL;
@@ -399,11 +406,11 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     outline: none !important;
 }
 
-.primary-btn, .secondary-btn {
+.primary-btnsign, .secondary-btn {
     --bg-opacity: 1;
     --text-opacity: 1;
 }
-.primary-btn {
+.primary-btnsign {
     background-color: #4643ee; 
     padding-left: 75px;
     padding-right: 75px;

@@ -33,8 +33,7 @@ const Home = ( ) =>{
                         </div>
 
                         <div className="row">
-                        <div className="col-lg-4
-                        ">
+                        <div className="col-lg-4">
                         <img src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/googleplay%403x.png" height="55px" alt="Google Play" />
                         </div>
                         <div className="col-lg-4">
@@ -42,7 +41,7 @@ const Home = ( ) =>{
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 order-1 order-lg-2 mt-5 header-img">
+                    <div className="onjun col-lg-6 order-1 order-lg-2 mt-5 header-img">
                     <img src={mobile} className="img-fluid animated" />
                     </div>
                 </div>
@@ -155,7 +154,7 @@ const Home = ( ) =>{
                     {/* signup now button */}
                     <div className="sign self-center">
                         <div className="w-full">
-                            <button className="h-15 text-center cursor-pointer primary-btn primary-btn-animation primary-btn-animation:hover">
+                            <button className="primary-btnsign">
                                                     Sign Up Now
                             </button>
                         </div>

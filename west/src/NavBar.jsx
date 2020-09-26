@@ -7,7 +7,8 @@ const Navbar = ( ) =>{
           <>
           <div className="container-fluid nav_bg">
               <div className="row">
-                  <div className="col-lg-9 col-sm-11 mx-auto">
+                  <div className="col-lg-12  col-sm-11 mx-auto">
+                      <div className="center col-lg-9">
 
                  
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -53,7 +54,7 @@ const Navbar = ( ) =>{
                 </div>
             </li>
             </ul>
-            <form className="navbar-nav ml-auto mb-2 mb-lg-0">
+            <form className="navbar-nav mb-2 mb-lg-0">
                  {/*login*/}
             <a href="/login" className="alogin">
                 <button class="secondary-btn">
@@ -64,7 +65,7 @@ const Navbar = ( ) =>{
             </a>
 
             {/*signup*/}
-            <a href="/get-started" className="asignup">
+            <a href="/get-started" className="asignup ml-4">
                 <button class="primary-btn">
                     <span>
                     Signup
@@ -77,6 +78,7 @@ const Navbar = ( ) =>{
             </form>
         </div>
         </nav>
+        </div>
         </div>
               </div>
           </div>

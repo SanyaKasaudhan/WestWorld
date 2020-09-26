@@ -4,8 +4,21 @@
     font-family: 'Mulish', sans-serif;
 }
 
+.center{
+    padding-left: 10.5rem;
+    
+}
 .navbar{
+    z-index: 1;
+    position: fixed;
     background-color: #fff !important;
+    width: 100%;
+    height: 4.5rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
   }
   .navbar a{
     font-size: 1.3rem;
@@ -57,6 +70,7 @@
     --text-opacity: 1;
     line-height: 1.44;
     height: 2.5rem;
+    margin-left:-663px;
     padding-right: 35px;
     padding-left: 35px;
     outline: 0!important;
@@ -70,7 +84,7 @@
 }
 
 .primary-btn{
-    margin-left: 25px;
+    margin-left: -545px;
     color: #fff;
     font-size: 1rem;
     --border-opacity: 1;
@@ -81,8 +95,10 @@
     --text-opacity: 1;
     line-height: 1.44;
     height: 2.5rem;
-    padding-bottom: 30px;
+    padding-top: 8px;
+    padding-bottom: 22px;
     padding-right: 35px;
     padding-left: 35px;
-    outline: 0!important;
+    outline: none;    
+    border: 0 solid #e2e8f0;
 }
