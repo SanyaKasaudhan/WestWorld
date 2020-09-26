@@ -36,3 +36,53 @@
   .navbar a:hover{
     color: black !important;
   }
+
+  /*login*/
+  .alogin{
+        color: inherit;
+        text-decoration: inherit;
+        background-color: transparent;
+  }
+
+.secondary-btn {
+    background-color: #fff;
+    font-size: 1rem;
+    --border-opacity: 1;
+    border: 2px solid #4643ee;
+    border-radius: .625rem;
+    color: #4643ee;
+    color: rgba(70,67,238,var(--text-opacity));
+    font-family: LetteraTextLL;
+    font-weight: 700;
+    --text-opacity: 1;
+    line-height: 1.44;
+    height: 2.5rem;
+    padding-right: 35px;
+    padding-left: 35px;
+    outline: 0!important;
+}
+
+/*signup*/
+.signup{
+    color: inherit;
+    text-decoration: inherit;
+    background-color: transparent;
+}
+
+.primary-btn{
+    margin-left: 25px;
+    color: #fff;
+    font-size: 1rem;
+    --border-opacity: 1;
+    border-radius: .625rem;
+    background-color: #4643ee;
+    font-family: LetteraTextLL;
+    font-weight: 700;
+    --text-opacity: 1;
+    line-height: 1.44;
+    height: 2.5rem;
+    padding-bottom: 30px;
+    padding-right: 35px;
+    padding-left: 35px;
+    outline: 0!important;
+}

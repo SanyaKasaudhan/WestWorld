@@ -54,11 +54,23 @@ const Navbar = ( ) =>{
             </li>
             </ul>
             <form className="navbar-nav ml-auto mb-2 mb-lg-0">
-                
-            <button type="button" class="btn btn-outline-success mx-5 col-md-3 col-sm-6">Login</button>
-            
-            <button type="button" class="btn btn-md btn-primary mr-4 col-md-3 col-sm-6">Signup</button>
-            
+                 {/*login*/}
+            <a href="/login" className="alogin">
+                <button class="secondary-btn">
+                    <span>
+                    Login
+                    </span>
+                </button>
+            </a>
+
+            {/*signup*/}
+            <a href="/get-started" className="asignup">
+                <button class="primary-btn">
+                    <span>
+                    Signup
+                    </span>
+                </button>
+            </a>
             
 
             

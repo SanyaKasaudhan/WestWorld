@@ -662,7 +662,7 @@ const Home = ( ) =>{
 
 
         </section>
-
+ {/* static message button */}
     <div className="static">
     
         <div className="intercom" aria-label="Open Intercom Messenger" role="button" tabindex="0">
