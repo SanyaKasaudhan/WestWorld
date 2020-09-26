@@ -3,10 +3,9 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
-
-.center{
-    padding-left: 10.5rem;
     
+.center{
+    margin-left: 10.5rem;
 }
 .navbar{
     z-index: 1;

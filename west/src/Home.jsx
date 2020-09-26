@@ -7,7 +7,7 @@ const Home = ( ) =>{
             <div className="col-lg-9 col-sm-11 mx-auto">
                 <div className="row">
                     <div className="col-md-6 col-sm-7 pt-lg-5 pt-sm-2 order-1 justify-content-md-center">
-                        <h1 className="heading1 justify-content-md-center">The Most Powerful Checking Account</h1>
+                        <h1 className="heading1 justify-content-md-center ">The Most Powerful Checking Account</h1>
                         <h4 className="heading2 mt-4">
                                 Our checking account gives you higher returns than a savings account with no hidden fees.
                         </h4>
