@@ -289,32 +289,28 @@ const Home = ( ) =>{
         
 
     {/*card2*/}
-    
-
-
-
     <div className="col-lg-4">
             <div className="card w-full block rounded-10">
-                    <div className="card1 w-full block rounded-10">
+                    <div className="card5 w-full block rounded-10">
                         
                         <div className="relative bottom-24">
                             <img className="credit" src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/juno-plus%403x.png" alt="card"></img>
                 
                                 <p className="metal">
-                                                METAL
+                                                PREMIUM
                                 </p>
 
                                 <p className="sup">
                                     <span className="text-juno-blue">
-                                        2.15%
+                                        1.65%
                                     </span> 
                                     <span className="sup1">
-                                        1
+                                        2
                                     </span>
                                 </p>
                                 <p className="cash">
                                     <span className="cash1">
-                                                    5%
+                                                    4%
                                     </span> 
                                 
                                     <span className="cash2">
@@ -325,29 +321,26 @@ const Home = ( ) =>{
                     </div>
             
                     {/* progress bar top */}
-                    <div className="prog">
+                    <div className="prog mb-2">
                         <p>
-                            <span className="num1"> 2217</span>
-                            <span className="num2">/ 2500</span>
+                            <span className="num2"> 2000</span>
                             <span className="num3"> spots</span>
                             <span className="num4 flex-end">
-                                <span className="font-bold flex-end">          283</span>
+                                <span className="font-bold flex-end">          2000</span>
                                 <span> spots left</span>
                             </span>
                         </p>
                     </div>
 
                     {/* progress bar */}
-                    <div className="bg-white-smoke">
-                    <div className="juno-green-loader" style={{width: "88.76%"}}>
-                    </div>
+                    <div className="bg-white-smoke1">
                     </div>
 
                     {/* signup now button */}
                     <div className="sign self-center">
                         <div className="w-full">
-                            <button className="h-15 text-center cursor-pointer primary-btn primary-btn-animation primary-btn-animation:hover">
-                                                    Sign Up Now
+                            <button className="primary-btn1">
+                                                    Up Next
                             </button>
                         </div>
                     </div>
@@ -363,14 +356,14 @@ const Home = ( ) =>{
                     <div className="point1" >
                         <div className="poin1" >
                             <div className="po1" >
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" className="svg1" >
-                                    <path stroke="#00A86B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7" >
+                            <svg data-v-5602b450="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" class="svg1">
+                                    <path data-v-5602b450="" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7">
                                     </path>
                                 </svg>
                             </div> 
                         </div> 
                         <p className="p1" >
-                        Charcoal Black Metal Card
+                        Free Debit Card
                         </p>
                     </div>
 
@@ -378,14 +371,14 @@ const Home = ( ) =>{
                     <div className="point1" >
                         <div className="poin1" >
                             <div className="po1" >
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" className="svg1" >
-                                    <path stroke="#00A86B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7" >
+                            <svg data-v-5602b450="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" class="svg1">
+                                    <path data-v-5602b450="" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7">
                                     </path>
                                 </svg>
                             </div> 
                         </div> 
                         <p className="p1" >
-                        2.15%<sup>1</sup> Bonus Rate Checking Account
+                        1.65%<sup>2</sup> Bonus Rate Checking Account
                         </p>
                     </div>
 
@@ -393,14 +386,14 @@ const Home = ( ) =>{
                     <div className="point1" >
                         <div className="poin1" >
                             <div className="po1" >
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" className="svg1" >
-                                    <path stroke="#00A86B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7" >
+                            <svg data-v-5602b450="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" class="svg1">
+                                    <path data-v-5602b450="" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7">
                                     </path>
                                 </svg>
                             </div> 
                         </div> 
                         <p className="p1" >
-                        5% Cash back on brands you love
+                        4% Cash back on brands you love
                         </p>
                     </div>
 
@@ -409,8 +402,8 @@ const Home = ( ) =>{
                     <div className="point1" >
                         <div className="poin1" >
                             <div className="po1" >
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" className="svg1" >
-                                    <path stroke="#00A86B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7" >
+                            <svg data-v-5602b450="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" class="svg1">
+                                    <path data-v-5602b450="" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7">
                                     </path>
                                 </svg>
                             </div> 
@@ -425,8 +418,8 @@ const Home = ( ) =>{
                     <div className="point1" >
                         <div className="poin1" >
                             <div className="po1" >
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" className="svg1" >
-                                    <path stroke="#00A86B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7" >
+                            <svg data-v-5602b450="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" class="svg1">
+                                    <path data-v-5602b450="" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7">
                                     </path>
                                 </svg>
                             </div> 
@@ -440,14 +433,14 @@ const Home = ( ) =>{
                     {/*Account fund*/}
                     <p className="acc">
                         Fund your account with a minimum opening deposit of  
-                        <span className="font-bold"> $1000. </span> 
-                        3 additional free ATM withdrawals per month from out of network ATMs.
+                        <span className="font-bold"> $500. </span> 
+                        2 additional free ATM withdrawals per month from out of network ATMs.
                     </p>
 
                     {/*bottom card*/}
 
             
-                    <div className="card2 w-full block rounded-b-10">
+                    <div className="card3 w-full block rounded-b-10">
                             <div className="relative bottom-24">
 
                                 <div className="foot" >
@@ -462,15 +455,12 @@ const Home = ( ) =>{
                                     <div className="ml25" >
                                         <p className="member" >
                                             <span className="line-through" >
-                                                $11.99/m Membership Fee
+                                                $6.99/m Membership Fee
                                             </span>
                                         </p> 
                                         <p className="free" >
-                                            Free for 6 months 
+                                            Coming Soon
                                         </p> 
-                                        <p className="saving" >
-                                            $60 Savings
-                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -484,26 +474,26 @@ const Home = ( ) =>{
 
                 <div className="col-lg-4">
             <div className="card w-full block rounded-10">
-                    <div className="card1 w-full block rounded-10">
+                    <div className="card5 w-full block rounded-10">
                         
                         <div className="relative bottom-24">
                             <img className="credit" src="https://juno-public.s3-us-west-1.amazonaws.com/Juno/juno-basic%403x.png" alt="card"></img>
                 
                                 <p className="metal">
-                                                METAL
+                                                BASIC
                                 </p>
 
                                 <p className="sup">
                                     <span className="text-juno-blue">
-                                        2.15%
+                                        1.15%
                                     </span> 
                                     <span className="sup1">
-                                        1
+                                        3
                                     </span>
                                 </p>
                                 <p className="cash">
                                     <span className="cash1">
-                                                    5%
+                                                    3%
                                     </span> 
                                 
                                     <span className="cash2">
@@ -514,29 +504,26 @@ const Home = ( ) =>{
                     </div>
             
                     {/* progress bar top */}
-                    <div className="prog">
+                    <div className="prog mt-4">
                         <p>
-                            <span className="num1"> 2217</span>
-                            <span className="num2">/ 2500</span>
+                            <span className="num2">10000</span>
                             <span className="num3"> spots</span>
                             <span className="num4 flex-end">
-                                <span className="font-bold flex-end">          283</span>
+                                <span className="font-bold flex-end">          10000</span>
                                 <span> spots left</span>
                             </span>
                         </p>
                     </div>
 
                     {/* progress bar */}
-                    <div className="bg-white-smoke">
-                    <div className="juno-green-loader" style={{width: "88.76%"}}>
-                    </div>
+                    <div className="bg-white-smoke2">
                     </div>
 
                     {/* signup now button */}
                     <div className="sign self-center">
                         <div className="w-full">
-                            <button className="h-15 text-center cursor-pointer primary-btn primary-btn-animation primary-btn-animation:hover">
-                                                    Sign Up Now
+                            <button className="primary-btn2">
+                                                    Coming Soon
                             </button>
                         </div>
                     </div>
@@ -552,14 +539,14 @@ const Home = ( ) =>{
                     <div className="point1" >
                         <div className="poin1" >
                             <div className="po1" >
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" className="svg1" >
-                                    <path stroke="#00A86B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7" >
+                            <svg data-v-5602b450="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" class="svg1">
+                                    <path data-v-5602b450="" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7">
                                     </path>
                                 </svg>
                             </div> 
                         </div> 
                         <p className="p1" >
-                        Charcoal Black Metal Card
+                        Free Debit Card
                         </p>
                     </div>
 
@@ -567,14 +554,14 @@ const Home = ( ) =>{
                     <div className="point1" >
                         <div className="poin1" >
                             <div className="po1" >
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" className="svg1" >
-                                    <path stroke="#00A86B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7" >
+                            <svg data-v-5602b450="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" class="svg1">
+                                    <path data-v-5602b450="" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7">
                                     </path>
                                 </svg>
                             </div> 
                         </div> 
                         <p className="p1" >
-                        2.15%<sup>1</sup> Bonus Rate Checking Account
+                        1.15%<sup>3</sup> Bonus Rate Checking Account
                         </p>
                     </div>
 
@@ -582,14 +569,14 @@ const Home = ( ) =>{
                     <div className="point1" >
                         <div className="poin1" >
                             <div className="po1" >
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" className="svg1" >
-                                    <path stroke="#00A86B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7" >
+                            <svg data-v-5602b450="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" class="svg1">
+                                    <path data-v-5602b450="" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7">
                                     </path>
                                 </svg>
                             </div> 
                         </div> 
                         <p className="p1" >
-                        5% Cash back on brands you love
+                        3% Cash back on brands you love
                         </p>
                     </div>
 
@@ -598,8 +585,8 @@ const Home = ( ) =>{
                     <div className="point1" >
                         <div className="poin1" >
                             <div className="po1" >
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" className="svg1" >
-                                    <path stroke="#00A86B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7" >
+                            <svg data-v-5602b450="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" class="svg1">
+                                    <path data-v-5602b450="" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7">
                                     </path>
                                 </svg>
                             </div> 
@@ -614,8 +601,8 @@ const Home = ( ) =>{
                     <div className="point1" >
                         <div className="poin1" >
                             <div className="po1" >
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" className="svg1" >
-                                    <path stroke="#00A86B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7" >
+                            <svg data-v-5602b450="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13" class="svg1">
+                                    <path data-v-5602b450="" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 1L6 12 1 7">
                                     </path>
                                 </svg>
                             </div> 
@@ -627,17 +614,16 @@ const Home = ( ) =>{
 
 
                     {/*Account fund*/}
-                    <p className="acc">
+                    <p className="acc mb-5">
                         Fund your account with a minimum opening deposit of  
-                        <span className="font-bold"> $1000. </span> 
-                        3 additional free ATM withdrawals per month from out of network ATMs.
+                        <span className="font-bold"> $0. </span> 
                     </p>
 
                     {/*bottom card*/}
 
             
-                    <div className="card2 w-full block rounded-b-10">
-                            <div className="relative bottom-24">
+                    <div className="card4 pt-4">
+                            <div className="bottom-14">
 
                                 <div className="foot" >
                                     <div className="foot1" >
@@ -650,16 +636,11 @@ const Home = ( ) =>{
                                     </div> 
                                     <div className="ml25" >
                                         <p className="member" >
-                                            <span className="line-through" >
-                                                $11.99/m Membership Fee
-                                            </span>
+                                                No Membership Fee
                                         </p> 
                                         <p className="free" >
-                                            Free for 6 months 
+                                            Free Forever
                                         </p> 
-                                        <p className="saving" >
-                                            $60 Savings
-                                        </p>
                                     </div>
                                 </div>
                             </div>
