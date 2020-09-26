@@ -20,12 +20,17 @@
     border: 0 solid #e2e8f0;
   }
   .navbar a{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
   }
   .menu_active1{
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     color: #ff66ff !important;
+  }
+  .menu_active1:hover{
+    color: #ff66ff !important;
+    background-color: white;
   }
   .menu_active{
     font-size: 16px;
