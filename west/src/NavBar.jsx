@@ -57,7 +57,7 @@ const Navbar = ( ) =>{
             <form className="navbar-nav mb-2 mb-lg-0">
                  {/*login*/}
             <a href="/login" className="alogin">
-                <button class="secondary-btn">
+                <button className="secondary-btn">
                     <span>
                     Login
                     </span>
@@ -66,7 +66,7 @@ const Navbar = ( ) =>{
 
             {/*signup*/}
             <a href="/get-started" className="asignup ml-4">
-                <button class="primary-btn">
+                <button className="primary-btn">
                     <span>
                     Signup
                     </span>
